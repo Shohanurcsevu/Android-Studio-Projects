@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_networking_lab"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.srbiswash.routine11sb.NetworkingLab"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:text="Course Code-234"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:id="@+id/textView25"
+        android:layout_below="@+id/textView24"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/white" />
+
+    <TextView
+        android:text="Networking Lab"
+        android:textSize="25dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:id="@+id/textView24"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView25"
+        android:layout_alignStart="@+id/textView25"
+        android:background="@android:color/background_light" />
+
+    <TextView
+        android:text="Course Teacher : Umme Rahman Chaoity and Nur -Alam- Siddique"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+        android:id="@+id/textView26"
+        android:layout_below="@+id/textView25"
+        android:background="@android:color/background_light" />
+</RelativeLayout>

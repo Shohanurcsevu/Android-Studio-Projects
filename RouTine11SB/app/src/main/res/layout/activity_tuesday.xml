@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tuesday"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.srbiswash.routine11sb.Tuesday">
+
+
+    <TextView
+        android:text="Time:"
+        android:textSize="25dp"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView41"
+        android:layout_marginTop="80dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintRight_toLeftOf="@+id/textView42"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintHorizontal_bias="0.42" />
+
+    <TextView
+        android:text="Room:"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView42"
+        android:layout_marginTop="80dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/textView43"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp" />
+
+    <TextView
+        android:text="Sub:"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView43"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="32dp"
+        app:layout_constraintVertical_bias="0.14" />
+
+    <TextView
+        android:text="12.00pm-1.25pm Group-C"
+
+        android:layout_width="118dp"
+        android:layout_height="40dp"
+        android:id="@+id/textView44"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView41"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintRight_toLeftOf="@+id/textView45"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <TextView
+        android:text="DML"
+        android:layout_width="37dp"
+        android:layout_height="23dp"
+        android:id="@+id/textView45"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView42"
+        app:layout_constraintRight_toLeftOf="@+id/tvSoftwarelab"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <TextView
+        android:text="CSE-236"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:id="@+id/tvSoftwarelab"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView43"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <TextView
+        android:text="2.00pm-3.25pm"
+        android:layout_width="131dp"
+        android:layout_height="25dp"
+        android:id="@+id/textView47"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView44"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintVertical_bias="0.11"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:text="501"
+        android:id="@+id/textView48"
+        android:layout_marginTop="56dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView45"
+        android:layout_marginStart="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/textView47"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintRight_toLeftOf="@+id/tvsta"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_width="37dp"
+        android:layout_height="23dp" />
+
+    <TextView
+        android:text="STA-231"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvsta"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvSoftwarelab"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintVertical_bias="0.16000003" />
+
+    <TextView
+        android:text="3.00pm-5.00pm"
+        android:layout_width="124dp"
+        android:layout_height="22dp"
+        android:id="@+id/textView50"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView47"
+        app:layout_constraintRight_toLeftOf="@+id/textView51"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintVertical_bias="0.15"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintHorizontal_bias="0.18" />
+
+    <TextView
+        android:text="501"
+        android:layout_width="37dp"
+        android:layout_height="23dp"
+        android:id="@+id/textView51"
+        android:layout_marginTop="48dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView48"
+        app:layout_constraintRight_toLeftOf="@+id/tvDDlogic"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp" />
+
+    <TextView
+        android:text="CSE-231"
+        android:layout_width="68dp"
+        android:layout_height="13dp"
+        android:id="@+id/tvDDlogic"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvsta"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintVertical_bias="0.19" />
+
+
+</android.support.constraint.ConstraintLayout>
